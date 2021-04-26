@@ -6,22 +6,22 @@
 int main()
 {
 	/*std::vector<int> arr{ 5, 3, 6, 1 };
-
-	for (int i = 0; i < arr.size(); i++)
+	std::vector<char> arrC{ '#','o', '#','o', '#','o', '#','o', '#','o', '#','o'};
+	for (int i = 0; i < arrC.size(); i++)
 	{
-		std::cout << arr[i] << "-";
+		std::cout << arrC[i] << "-";
 	}
 
-	sort::selection(arr);
+	sort::sortchars(arrC);
 
 	std::cout << "\n";
 
-	for (int i = 0; i < arr.size(); i++)
+	for (int i = 0; i < arrC.size(); i++)
 	{
-		std::cout << arr[i] << "-";
+		std::cout << arrC[i] << "-";
 	}*/
 
-	Tree tree = Tree(1);
+	/*Tree tree = Tree(1);
 
 	tree.GetRoot()->SetLeftChild(1);
 	tree.GetRoot()->SetRightChild(2);
@@ -35,5 +35,7 @@ int main()
 	{
 		std::cout << bfs.front();
 		bfs.pop();
-	}
+	}*/
+
+	//std::cout << others::fibonacci(50);
 }
