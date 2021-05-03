@@ -18,6 +18,7 @@ std::queue<int> Tree::BFSearch()
 	std::queue<int> output = {};
 
 	visited.push(m_root);
+	output.push(m_root->GetData());
 
 	while (!visited.empty())
 	{

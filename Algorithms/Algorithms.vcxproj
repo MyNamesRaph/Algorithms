@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="Algorithms.cpp" />
     <ClCompile Include="BinaryNode.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryNode.h" />
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="sort.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>
